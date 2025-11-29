@@ -1,9 +1,13 @@
 package com.example.crime_reporting_auth.model;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Set;
 
+@Setter
+@Getter
 @Entity
 @Table(name = "crimeApp_user")
 public class User {
