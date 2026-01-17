@@ -1,6 +1,5 @@
 package com.example.crime_reporting_auth.config;
 
-import com.example.crime_reporting_auth.security.CustomUserDetails;
 import com.example.crime_reporting_auth.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
