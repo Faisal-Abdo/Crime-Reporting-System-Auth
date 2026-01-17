@@ -14,4 +14,13 @@ public class Role {
 
     @Column(unique = true)
     private String name;
+
+    public Role(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public Role() {
+
+    }
 }
